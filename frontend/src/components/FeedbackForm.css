@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #e0f7fa;
+}
+
+.feedbackForm__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container styling  */
+.feedbackForm__container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 550px;
+  font-family: "Roboto Mono", monospace;
+  /* margin-top: 5px; */
+  height: 520px;
+}
+
+/* Form title */
+.feedbackForm__title {
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 800;
+  color: #00796b;
+}
+
+/* Input group spacing */
+.feedbackForm__inputGroup {
+  margin-bottom: 20px;
+}
+
+/* Input wrapper */
+.feedbackForm__inputWrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Input fields */
+.feedbackForm__inputField {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Roboto Mono", monospace;
+  color: #2f3640;
+}
+
+/* Label styling */
+.feedbackForm__label {
+  font-weight: 700;
+  font-size: 16px;
+  color: #2f3640;
+  /* margin-bottom: 5px; */
+}
+
+/* submit button */
+.feedbackForm__submitButton {
+  width: 100%;
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.feedbackForm__submitButton:hover {
+  background-color: #16a085;
+}
+
+.feedbackForm__submitIcon {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+/* error message */
+.feedbackForm__error {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* sucess message */
+.feedbackForm__success {
+  color: #27ae60;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* submitted data style */
+.submittedData__container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #b2ebf2;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.submittedData__title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.submittedData__container p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #2f3640;
+  font-weight: 500;
+}
