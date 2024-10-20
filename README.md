@@ -30,6 +30,7 @@ npm start
 
 
 🛠️ Built With
+
 React.js - JavaScript library for building user interfaces
 React Icons - Popular icon library
 CSS3 - Styling
@@ -38,13 +39,15 @@ CSS3 - Styling
 To deploy this project, follow these steps:
 
 Run the following build command:
+
 npm run build
 Deploy the build/ folder to any static hosting service (e.g., Netlify, GitHub Pages, Vercel).
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Fork the project
+## Fork the project
+
 Create your feature branch: git checkout -b feature/my-feature
 Commit your changes: git commit -m 'Add some feature'
 Push to the branch: git push origin feature/my-feature
